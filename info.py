@@ -103,13 +103,13 @@ VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'hRPS5vvZc0OGOEUQJMJzPiojoVK2')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'NPhKlBigbbMgvMtq5uE9W85WxlY2')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION} For more join @palbackup")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -128,7 +128,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
@@ -145,7 +145,7 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
-AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
+AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', True)) # Set True or False
 
 # Save Restricted Info : If True Then Bot Save Content From Restricted Channel Else Not
 SAVE_RESTRICTED_MODE = bool(environ.get('SAVE_RESTRICTED_MODE', False)) # Set True or False
